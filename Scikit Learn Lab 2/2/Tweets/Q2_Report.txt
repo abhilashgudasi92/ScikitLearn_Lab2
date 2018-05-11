@@ -1,0 +1,15 @@
+Applying MNB to Real Dataset
+
+Dataset chosen: Twitter U.S. Semtiment Analysis
+
+Best parameters MNB Algorithm
+alpha with value 0.01
+
+With MNB, the best score/accuracy we got, 77.45%
+
+We are not satisfied with the accuracy.
+
+Before preprocessing and after preprocessing the tweet text data, we did not see much improvement in the accuracy.
+
+We can improve the accuracy with a linear support machine(SVM) by playing with parameters such as loss, alpha, penalty, maximum iterations, etc. For text processing, SVM seems to be better than MNB.
+
